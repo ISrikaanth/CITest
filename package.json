@@ -45,7 +45,7 @@
     "eslint",
     "REST",
     "API",
-    "masterconfig"
+    "citest"
   ],
   "repository": {
     "type": "git",
