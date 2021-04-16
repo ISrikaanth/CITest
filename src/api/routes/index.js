@@ -7,6 +7,6 @@ const router = express.Router();
  */
 router.get('/api/status', (req, res) => res.send('OK'));
 
-router.get('/api/statuscd', (req, res) => res.send('OK'));
+router.get('/api/statuscd', (req, res) => res.send('OK CD'));
 
 module.exports = router;
