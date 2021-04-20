@@ -23,7 +23,7 @@
     "deploy:qa": "shipit qa deploy",
     "deploy:uat": "shipit uat deploy",
     "deploy:prod": "shipit production deploy",
-    "start:docker": "pm2-runtime ecosystem.json",
+    "start:docker": "pm2 start ./src/index.js",
     "test": "jest --config ./jest.config.js",
     "test:watch": "npm run test -- --watch",
     "test:coverage": "npx jest --coverage"
